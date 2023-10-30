@@ -1,0 +1,8 @@
+= Pterodactyl Exporter
+
+Our Minecraft host added more statistics to their API responses which I wanted to display, so https://github.com/noesterle/pterodactyl_exporter[I forked the application] and made and Object Oriented style extendable system for Pterodactyl-based Game Servers to be added.
+This can be quickly added to by adding a new file that defines a new class with just five methods that handle the non-standard data in Pterodactyl endpoints.
+
+I then took that application and wrapped it in a Docker container and https://hub.docker.com/r/noesterle/pterodactyl_exporter[published it], so it could be managed identically to the rest of my LAN server's applications.
+
+I then started up docker containers for Prometheus and my fork of Pterodactyl Exporter so I could track stats such as online players, CPU usage, and RAM usage over time.

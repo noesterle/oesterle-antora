@@ -1,0 +1,41 @@
+== Avidia Bank
+
+I have worked at Avidia Bank since August 2020 to work in the new Software Engineering department.
+
+=== August 2020 - Present
+
+While working at Avidia Bank, I have been contributing to the Efficiency Campaign.
+Avidia Bank is continually streamlining the work process of departments all over the bank by creating new tools, on top of applications to further business goals.
+These tools both speed up work that needs to be done and removes ancillary work, allowing each department to focus on what it does best.
+These tools and applications are written using Mulesoft (which is powered by Dataweave and Java), in Python, or in Powershell.
+
+To this end, I have worked on:
+
+* Giact Integration API and CSV parser - An Mulesoft API wrapper for Giact's Identity Verification and Validation service, allowing a customer to use the API service instead of sending a file to Payments to be processed and resulting file to be returned.
+While working to onboard this customer, a CSV parser was added to process this file and return it so the Payments department no longer had to.
+API requests and CSV based queries that succeed and fail are all recorded in a table in Salesforce to generate a report and bill accordingly.
+* BSA FinCEN Macro - This project comes in two parts, an Excel Macro and a Powershell script.
+** Macro - An Excel Macro that I created by writing and recording, turning raw transaction data into color-coded and annotate-able info. That transactions data can then be added to a new Pivot Table, turned into a CSV to search Synergy for check images, or a CSV to submit to FinCEN.
+** Powershell Script - I also wrote an accompanying Powershell Script to search for check images based on criteria from the Excel spreadsheet Export, and add them to a ZIP file for BSA investigators.
+* Online Dollar Processing Script - I created a Python script to process Online Dollar transactions that Avidia Bank received via CSV file, instead of the Payments department doing it manually.
+* RACF Password Changer Script - I created a Python script to help the Software Engineering department change passwords for FIS's RACF accounts.
+This script could handle an arbitrary list of accounts, generate potential passwords based on FIS's strict criteria, and change the password using FIS's API, and updates environment files with the new password.
+* Employee Fraud Report - The bank has measures to detect fraud being committed via Bank Account Takeover.
+I created a Python Pandas script to replace an existing 3rd party tool that was changing license requirements and price.
+The script compares employee data with customer and account data to find close matches and commonalities, generating reports to flag any potential fraud.
+While creating the script, I discovered the previous tool compares the phonetics of two strings while the new script compares strings with Levenshtein distance. 
+* Business Manager Sync functionality - I added sync functionality to an existing Mulesoft application to take the contents of a CSV and upsert them into Salesforce, to provide that data to Customer Service Representatives.
+* Base2000 Refresh - I added to the Refresh Mulesoft application so that Credit Cards from FIS's Base2000 service are updated alongside deposit accounts from FIS's CodeConnect system, to allow Credit Card team to assist customers with current information.
+
+I also worked on large applications and initiatives:
+
+* Integrated Payables - I created an application that manages prefunded virtual credit cards in FIS's Base2000 system, prefunded by DDAs in the CodeConnect system.
+This application manages the cards being prefunded, refunded, cancelled, and expiring, moving funds between card and DDA as dictated by daily text files.
+This was worked on and test in conjunction with the Avidia Bank Credit Card department, FIS Integrated Payables Team, and FIS Base2000 team.
+* Encryption Documentation - I created step-by-step documentation and example Python code showing how to implement encryption for customers that have gained access to the Test Bank.
+I have also been a part of several meetings assisting customers debug their encryption implementations in test bank, so they can move on and access the production bank.
+* Antora Documentation - I implemented a documentation system to provide a central source of documentation whose source files are spread across different repositories.
+This allows for one static site to be built, while the documentation for each project remains in the repository it describes.
+That means the documentation can be edited as the code changes, and tracked in the same version control.
+* Gitlab CI/CD - I created Gitlab CI/CD pipelines for the Mulesoft applications, to streamline building, testing, scanning, and deploying the applications to UAT and Production environments.
+This replaces manually running tests in the Anypoint Studio IDE, manually deploying from the IDE, and leaves no uncertainty as to what's deployed in UAT and Production environments.

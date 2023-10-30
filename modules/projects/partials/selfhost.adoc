@@ -1,0 +1,27 @@
+= Selfhosting
+
+I have started selfhosing services, both on a VPS and on a LAN-only server.
+I purchased a domain (oesterle.io), rented a VPS, set DNS records accordingly, and set up SSH keys for secure SSH access with Fail2Ban monitoring sshd.
+From there, I decided what services would be deployed on the VPS and on LAN with Docker and Docker Compose.
+I set up the VPS with Caddy, a reverse proxy, to manage connecting to many services behind subdomains and automatically wildcard TLS Certificates from LetsEncrypt.
+Services I want to access anywhere at any time and a light weight would be deployed on the VPS and heavier applications that I only need access to at home would be deployed on LAN.
+There were some heavier applications that I want to access anywhere, so I setup a Tailscale VPN connection between the two servers and forward requests from the VPS to the LAN server over the Tailscale connection.
+
+Services on the VPS:
+
+* Dash - a dashboard with system information
+* Doku -  A wiki application
+* Firefly III - A budgeting and expense tracking application
+* Owntracks - Location tracking and location history display
+* Etebase - Encrypted Contact and Calendar application
+* Watchtower - Automatic docker image fetching
+* Headscale - Re-implementation of Tailscale coordination server
+* Linkding - Bookmark Manager
+
+Services on LAN:
+
+* Homebox - Home inventory tracker
+* Jellyfin - A local media server
+* Prometheus - A data visualation application
+* Pterodactyl Exporter - A Pterodactyl Server statistic exporter
+* Standard Notes - An encrypted note taking application

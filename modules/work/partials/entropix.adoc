@@ -1,0 +1,12 @@
+== Entropix LLC
+
+I co-oped for Entropix LLC from May 2018 through August 2019. This company created hardware and software to find the direction and geolocation of HF signals.
+
+=== May 2018 - August 2019
+
+While on co-op at Entropix, I worked on all aspects of their software stack.
+The server was python based, with C bindings, which communicated with a front end that was a Java plugin for NASA's WorldWind project.
+I added several major features:
+
+* master/slave functionality - allowing multiple antennas to work together and report their findings with MQTT messages to the master server to display
+* breadcrumbs - allowing the server to track and display the movement of signals over time

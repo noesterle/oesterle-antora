@@ -1,0 +1,29 @@
+= Projects
+
+Below are a collection of projects I've worked on over the years!
+Some are projects I've done for personal reasons, others are projects I've done as part of my time at RIT.
+
+== Personal
+:leveloffset: +2
+
+include::../partials/selfhost.adoc[Selfhosting]
+
+include::../partials/minecraft.adoc[Minecraft]
+
+include::../partials/pterodactyl.adoc[Pterodactyl Exporter]
+
+include::../partials/plot.adoc[Movie Plot Scrambler]
+
+:leveloffset: -2
+
+== Academic
+
+:leveloffset: +2
+
+include::../partials/appinventor.adoc[RIT App Inventor]
+
+include::../partials/donatorio.adoc[Donatorio]
+
+include::../partials/erp.adoc[ERP]
+
+:leveloffset: -2

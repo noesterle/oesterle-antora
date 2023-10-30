@@ -1,0 +1,82 @@
+= Rochester Institute of Technology
+
+I graduated from the Rochester Institute of Technology (RIT) in August 2020 with a Bachelors of Science in Software Engineering.
+During my time at RIT, I studied all phases of the Software Development Lifecycle in a project-oriented way.
+While listening and taking notes during lectures, we were also routinely assigned projects in teams ranging from 3-6 people for anywhere between a few weeks to the entire school year.
+
+Some of the more notable classes I attended include:
+
+== Senior Project
+
+:leveloffset: +2
+
+include::../../projects/partials/appinventor.adoc[]
+
+:leveloffset: -2
+
+== Process and Project Management
+
+In this course, we learned about the Software Development Lifecycle as a whole.
+We covered different Lifecycle models and Process Methodology, such as Waterfall, Iterative, and Agile development.
+
+For this courses project, we were split into teams and assigned a scenario.
+My team's scenario was upgrading a hypothetical State Metro System, which handles Train Coordination, Employee Management and Administration, Ticket Purchasing, Maintenance and Repair Management, and display info on a Dashboard.
+This started off outlining an Overview and Scope, including defining a problem statement, Stakeholders, what a team would look like (internal, contractors, mix), and the scope of the project.
+We then decided on a Process Methodology, evaluating the strengths and weaknesses of it in our scenario, how it affects team culture and stakeholder expectations, and identify particular risks our software team would face.
+
+
+Once the Process was decided upon, we had to break down the work to be done, each tasks dependencies, estimate a timeline, and display it in a Gantt Chart.
+We also decided what metrics should be tracked to benefit the project, how often they should be measured, who should do the measurement, and how it should be used.
+
+Once a schedule was made and metrics were established, we created a Stakeholder Analysis to show their interest level, influence level and effects, what metrics they would be interested in, and set out a strategy about how to manage them.
+A Communications Plan was also created to decide what information was meaningful to convey, who it should be shared with as well as over what medium and tone, who within the organization is responsible for communication and how often it should occur.
+
+== Human Centered Requirements and Design
+
+This was a class about the process of designing an application instead of focusing on the development phase.
+In this class, I worked in a team to create Donatorio.
+
+:leveloffset: +2
+
+include::../../projects/partials/donatorio.adoc[]
+
+:leveloffset: -2
+
+== Software Testing
+
+This class delved into the topic of testing software, which is not something that many other classes spent dedicated time on.
+In this class, we covered topics like unit testing, integration testing, and user testing, including best and worst practices.
+
+This was reenforced with assignments to write software that fulfilled pre-determined requirements.
+There were also many instances of us being given applications that needed to be tested.
+Some were perfectly functional and just needed tests created, others had purposefully added bugs that tests needed to reveal and had to be fixed accordingly.
+
+We also used tools like Selenium to create tests that confirmed the functionality and performance of deployed websites.
+These tests were a combination of recorded using a browser extension and written by keyboard, depending upon what the test was designed to achieve.
+
+== Performance Engineering
+
+This was a brand new class offered by the RIT Software Engineering department.
+Instead of working in teams like almost every other class, it was focusing in individual labs and in class discussion on top of more standard lectures.
+
+Every other week would be a new topic related to the performance of software, and an associated lab to go along with it.
+We were allowed to select any language we want to use to write the application, submitting that and a formal writeup of the results.
+I elected to work in Rust, at the time an emerging new systems programming language.
+Other students chose languages like Swift, Go, Python, and Java.
+
+There were a variety of topics we covered.
+To start, we worked with Sorting Algorithms.
+This was a topic we were all familiar with by this point, so it was primarily used as getting comfortable in our chosen development environments and doing the formal writeups.
+
+We also covered topics like bindings where an applications in one language calls on a binary written in another language.
+I chose to do Rust calling on Python code.
+This allowed us to experiment with bindings, measuring speed and discovering factors that would effect the speed of a binding.
+
+There was a lab comparing performance of queries of databases indexing one column, with multiple columns, with no index.
+One lab we did had us using our web browser's development tools to measure the performance of existing websites to find where bottlenecks were.
+
+Topics in this class, like bindings, were useful on co-op while at xref:about:work:index.adoc#_entropix_llc[Entropix LLC].
+While there, I was told of some performance issues while generating the heatmap.
+I found that the Python server was making calls to C code that did the actual generation.
+I used similar tactics learned in class, testing the Python code's speed, testing the C code's speed, and testing the whole process.
+I determined the delay was due to the bindings themselves, instead of issues in either language's code.

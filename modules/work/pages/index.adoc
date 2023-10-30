@@ -1,0 +1,7 @@
+= Work Experience
+
+include::../partials/avidia.adoc[Avidia Bank]
+
+include::../partials/entropix.adoc[Entropix LLC]
+
+include::../partials/gd.adoc[General Dynamics Mission Systems]

@@ -1,0 +1,4 @@
+*xref:about::index.adoc[Home]
+*xref:about:work:index.adoc[Work Experience]
+*xref:about:projects:index.adoc[Projects]
+*xref:about:school:index.adoc[School]

@@ -1,0 +1,19 @@
+== General Dynamics Mission Systems
+
+I co-oped at General Dynamics Mission Systems during June 2016 through December 2016 and returned during June 2017 through August 2017.
+
+=== June 2016 - December 2016
+
+While working at General Dynamics, I worked on a team of 6 to develop a testbed/trainer system for various military bases around the country.
+The application was written in Java, and was comprised of 6 parts that communicated and coordinated with middleware messaging system.
+
+I was responsible for the Video Interface (VI) portion of the application, simulating security cameras.
+The VI was developed on Windows and designed to run and tested on Red Hat Enterprise Linux.
+When running, it acted as a webserver for a video feed.
+After the VI was developed, I wrote a Software Test Plan in IBM Rational DOORS.
+
+=== June 2017 - August 2017
+
+The following summer, I returned to work for the same team at General Dynamics Mission Systems.
+While there, I helped rewrite the logging display system and the logging subsystem of the User Interface of the testbed/trainer.
+I also created the Software Test Plan for the User Interface and Panel Emulator portions of the application in IBM Rational DOORS.

@@ -1,0 +1,23 @@
+= ERP
+
+I took an Enterprise Software class, which was one of the largest projects I had been a part of at RIT.
+The class was divided into five teams, each assigned a different part of a fictional company that produced cellphones.
+Each team was tasked with creating software to drive their department.
+My team was the Human Resources department, we were in charge of hiring, firing, and payroll for the company.
+Other departments included Inventory, Manufacturing, Accounting.
+
+Each department's software by nature needed to interact with other departments.
+For example, Manufacturing made a phone, which removed parts from inventory, and added money to accounting.
+The entire class had to get together and decide which departments would need to interact, what data was needed to be supplied and received.
+Once everyone had settled on data structures, endpoints, and parameters for requests and responses, API Documentation was created for all teams to reference.
+
+This by itself wouldn't be too complicated, but the professor had a table called Risk of the Week.
+Each we, he would roll a 20 sided die which selected an event on the table.
+This ranged from someone on a team taking a vacation, to members of teams swapping, to virtual machines going down or being wiped, to teams needing to change database types (such as MySQL to PostgreSQL).
+Each team had to try to mitigate these risks, or suffer from the risk's consequence.
+This ranged from maintain quality documentation, to trying automate as much as possible, to separating responsibilities but also knowing other peoples jobs.
+
+This project taught me so much about how to operate as a Software Engineering.
+While I had worked in teams for years before, this is the first time I had worked with other teams on software towards a common goal.
+This was also the first time we needed to consider things like availability, reliability, documenting for more than turning into a professor, and reacting to exterior unprompted events.
+These are lessons I have brought with me to all my co-ops and fulltime jobs after graduating, and I want to take with me and expand upon moving forward.

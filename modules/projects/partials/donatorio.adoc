@@ -1,0 +1,10 @@
+= Donatorio
+
+This project was an academic project that was not focused on the programming complexity.
+Instead it was focusing on the process of design.
+The class was divided into teams, and each team had to think up a project they could create.
+My team settled on a donation platform, where charities and users could both join a central service.
+Charities would reduce friction for receiving donations, and users would be in a place where they could trust what they're donating to.
+We had to come up with a name, we settled on Donatorio, lending itself to the idea behind the platform, sounding technical, and being an interesting word to say.
+
+From there, we had to flesh out usecases, draw wire diagrams, pick colorschemes, perform user testing on those in and out of class, incorporate feedback on the design, and creating a final User Interface with some basic functionality.

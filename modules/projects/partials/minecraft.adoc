@@ -1,0 +1,14 @@
+= Minecraft Hosting
+
+I worked with another to start hosting a modified (modded) Minecraft server, and headed up the technical end of it.
+I evaluated several platforms and found a good hosting platform for us, balancing compute resources, other provided features, cost, with available funding.
+We then worked together to evaluated different modifications to Minecraft, balancing user experience and compute resources with funding.
+
+I also provided technical assistance for users, helping users setup their clients, debug client misconfigurations, and handle major server errors.
+As certain user errors became more common, I wrote posts explaining steps to handle those issues for the moderation team to link to.
+
+As the userbase grew, I determined when and how to upgrade our VPS, balancing VPS resources with funding.
+I quickly felt we were lacking in resource monitoring over time.
+So, I discovered that our host runs Pterodactyl servers to spin up games and then found an Open Source application called https://github.com/LOENS2/pterodactyl_exporter[Pterodactyl Exporter] that can query Pterodactyl Game Servers for stats and serve them in a format that can be graphed.
+It didn't quite fit my needs, so I forked it and run my own version of that project.
+More on that can be found at xref:#_pterodactyl_exporter[] below.

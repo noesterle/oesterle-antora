@@ -1,0 +1,7 @@
+Hello! I'm Nathan Oesterle, Software Engineer. Have a look around! If you'd like to reach out, I can be reached at contact@oesterle.io!
+
+xref:about:work:index.adoc[Work Experience]
+
+xref:about:projects:index.adoc[Projects]
+
+xref:about:school:index.adoc[College Experience]

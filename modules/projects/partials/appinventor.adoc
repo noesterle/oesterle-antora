@@ -1,0 +1,37 @@
+= RIT App Inventor
+
+This was my Final Year Capstone project, which was done as part of a team with a mentor overseeing the team over the course of the entire school year.
+My project was to plan, create, and deliver multiple extensions for the https://appinventor.mit.edu/[MIT App Inventor] which aims to simplify Android app development.
+This project's Sponsor was an RIT professor who could use these extensions in classes he teaches.
+
+We were tasked with creating a Barometer extension, a Sound Pressure Level extension, and Robot Operating System (ROS) extension.
+Results of this project can be seen on our https://gldias.github.io/extensions/[Github Pages website], including user documentation and extension files as well as developer documentation and source code.
+We also created a poster and gave a presentation to another group, their Sponsor, and their mentor.
+
+== Barometer
+
+This extension was created to use a phone's Air Pressure Sensors to report the air pressure.
+It provides functionality to show if those sensors are available to use, returns the air pressure in millibars, and a function to turn that reporting on and off.
+This extension measures the air pressure, which can also be used to track change in elevation.
+
+Our Sponsor was able to take this extension and within 10 minutes create an app that graphs air pressure on his way back to RIT from a conference.
+He was able to use that app with our extension to visually represent the acceleration of an elevator he was riding.
+
+While creating this extension, we became familiar with developing extensions within MIT App Inventor's codebase.
+
+== Sound Pressure Level
+
+This extension was created to measure the ambient sound using the phone's microphone.
+We were to return the ambient sound in decibels (dB), https://en.wikipedia.org/wiki/A-weighting[A-Weighted Decibels (dBA)], and https://gldias.github.io/extensions/SoundPressureLevel/SoundPressureLevel[C-Weighted Decibels (dBC)].
+I lead development on this extension, using lessons we learned developing the Barometer.
+
+As I was developing, not only did I have to better learn the MIT App Inventor environment but also quickly learn a new domain and mathematics I wasn't familiar with.
+I had to find a way to implement a https://en.wikipedia.org/wiki/Fast_Fourier_transform[Fast Fourier Transformation] after understanding how to use it to weigh the raw dB readings.
+
+== Robot Operating System
+
+This extension was designed to interact with ROS robots and control them.
+We were familiar with MIT App Inventor's environment, and now had to pivot to learn how to develop in the for a ROS environment.
+We conducted research, set up ROS installations, found and used simulation software.
+We started planning out how to develop an extension that could theoretically interact with any kind of ROS robot.
+Unfortunately we ran out of time when working on this extension, so we created stubs of our planned methods and dedicated more resources to working on other Software Department deliverables.

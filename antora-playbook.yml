@@ -1,0 +1,21 @@
+site:
+  title: ""
+  start_page: index.adoc
+  url: oesterle.io
+content:
+  sources:
+    - url: https://github.com/noesterle/oesterle-antora
+    branches: master
+ui:
+  bundle: 
+    url: https://github.com/noesterle/antora-ui/build/ui-bundle.zip
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+asciidoc:
+  extensions:
+    - asciidoctor-plantuml
+  attributes:
+    plantuml-server-url: 'http://www.plantuml.com/plantuml'
+    plantuml-fetch-diagram: true
+output:
+  clean: true

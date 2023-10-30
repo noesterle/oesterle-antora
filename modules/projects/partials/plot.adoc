@@ -1,0 +1,8 @@
+= Movie Plot Scrambler
+
+I created this project in order to familiarize myself with some basic front end development.
+This project combines work with the Angular Framework, Typescript, HTML, and CSS.
+It allows the user to search for a movie, and scrambles the description of it by finding synonyms for each individual word so that the whole description losses all meaning.
+It gets the movie description from https://www.omdbapi.com/[OMDB's API], and find synonyms using the https://www.wordsapi.com/[WordsAPI] which is available through https://rapidapi.com/[RapidAPI].
+The OMDB API call is a single API call per movie, and each word is asynchronously submitted as an API call and updated as a response is returned.
+Each service offers a free tier, OMDB will stop responding while RapidAPI will charge for API calls over the free amount.
