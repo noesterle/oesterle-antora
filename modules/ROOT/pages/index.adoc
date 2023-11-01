@@ -1,7 +1,25 @@
 Hello! I'm Nathan Oesterle, Software Engineer. Have a look around! If you'd like to reach out, I can be reached at contact@oesterle.io!
 
-xref:about:work:index.adoc[Work Experience]
+//"2*"
+[cols="1*"] 
+|===
+//a|=== About
+//About me
 
-xref:about:projects:index.adoc[Projects]
+a|=== Work
+I've been a professional Software Engineer since 2016, working for companies large and small, creating and contributing to software and related Software Development Documents.
 
-xref:about:school:index.adoc[College Experience]
+More information about my xref:about:work:index.adoc[Work Experience can be found here].
+
+a|=== Projects
+On top of working professionally, I've also completed a variety of personal and academic projects to create tools I need and to learn more about my field and craft.
+
+More information about projects I've created and contributed to xref:about:projects:index.adoc[can be found here].
+Many of these projects are open source, check out https://github.com/noesterle[my Github] if you're interested in using or contributing to them!
+
+a|=== School
+I was a student of the Software Engineering program at Rochester Institute of Technology, graduating in 2020.
+
+Here is more information about my xref:about:school:index.adoc[College Experience]
+
+|===
