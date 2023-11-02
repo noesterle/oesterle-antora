@@ -1,14 +1,14 @@
 site:
-  title: ""
-  start_page: index.adoc
-  url: oesterle.io
+  title: "Nathan Oesterle"
+  start_page: about::index.adoc
+  url: https://oesterle.io
 content:
   sources:
     - url: https://github.com/noesterle/oesterle-antora
-    branches: master
+      branches: main
 ui:
   bundle: 
-    url: https://github.com/noesterle/antora-ui/build/ui-bundle.zip
+    url: https://github.com/noesterle/antora-ui/releases/latest/download/ui-bundle.zip
     snapshot: true
   supplemental_files: ./supplemental-ui
 asciidoc:
