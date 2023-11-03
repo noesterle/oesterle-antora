@@ -15,18 +15,18 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="#">Home</a>
+        <a class="navbar-item" href="{{{or site.url siteRootPath}}}">Home</a>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">Services</a>
+          <a class="navbar-link" href="{{{or site.url siteRootPath}}}">About Me</a>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="#">Service A</a>
-            <a class="navbar-item" href="#">Service B</a>
-            <a class="navbar-item" href="#">Service C</a>
+            <a class="navbar-item" href="{{{or site.url siteRootPath}}}/about/work/index.html">Work</a>
+            <a class="navbar-item" href="{{{or site.url siteRootPath}}}/about/projects/index.html">Projects</a>
+            <a class="navbar-item" href="{{{or site.url siteRootPath}}}/about/school/index.html">School</a>
           </div>
         </div>
         <div class="navbar-item">
           <span class="control">
-            <a class="button is-primary" href="#">Download</a>
+            <a class="button is-primary" href="#">Download Resume</a>
           </span>
         </div>
       </div>
