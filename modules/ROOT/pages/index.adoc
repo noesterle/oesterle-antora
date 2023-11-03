@@ -15,7 +15,7 @@ a|=== Projects
 On top of working professionally, I've also completed a variety of personal and academic projects to create tools I need and to learn more about my field and craft.
 
 More information about projects I've created and contributed to xref:about:projects:index.adoc[can be found here].
-Many of these projects are open source, check out https://github.com/noesterle[my Github] if you're interested in using or contributing to them!
+Many of these projects are open source, check out https://github.com/noesterle[my Github,window=_blank] if you're interested in using or contributing to them!
 
 a|=== School
 I was a student of the Software Engineering program at Rochester Institute of Technology, graduating in 2020.
