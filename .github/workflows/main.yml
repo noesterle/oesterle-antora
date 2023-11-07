@@ -20,9 +20,15 @@ jobs:
           npm install
           npx antora generate antora-playbook.yml --stacktrace
       - name: Test rsync restriction
+        shell: bash
         run: |
+          mkdir -p ~/.ssh/
+          echo "${{secrets.DEPLOY_SSH_KEY}}" > ~/.ssh/private.key
+          sudo chmod 600 ~/.ssh/private.key
+          echo "${{secrets.DEPLOY_KNOWN_HOST}}" > ~/.ssh/known_hosts
+
           CODE=1
-          ssh -q -i ${{secrets.DEPLOY_SSH_KEY}} ${{secrets.DEPLOY_USER}}@oesterle.io
+          ssh -q -i ~/.ssh/private.key ${{secrets.DEPLOY_USER}}@oesterle.io
           SUCCESS=$?
           #echo $SUCCESS
           if [[ $SUCCESS != 0 ]]; then
