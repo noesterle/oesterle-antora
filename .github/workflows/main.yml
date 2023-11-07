@@ -19,6 +19,17 @@ jobs:
         run: |
           npm install
           npx antora generate antora-playbook.yml --stacktrace
+      - name: Test rsync restriction
+        run: |
+          CODE=1
+          ssh -q -i ${{secrets.DEPLOY_SSH_KEY}} ${{secrets.DEPLOY_USER}}@oesterle.io
+          SUCCESS=$?
+          #echo $SUCCESS
+          if [[ $SUCCESS != 0 ]]; then
+            #echo "Task failed successfully"
+            CODE=0
+          fi
+          exit $CODE
       - name: Deploy
         uses: up9cloud/action-rsync@v1.4
         env:
