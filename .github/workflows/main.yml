@@ -18,7 +18,6 @@ jobs:
       - name: Build
         run: |
           npm install
-          export GIT_CREDENTIALS='https://${{secrets.DEPLOY_TOKEN}}:github.com)'
           npx antora generate antora-playbook.yml --stacktrace
       - name: Deploy
         uses: up9cloud/action-rsync@v1.4
