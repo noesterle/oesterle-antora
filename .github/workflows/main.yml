@@ -20,7 +20,7 @@ jobs:
           npm install
           npx antora generate antora-playbook.yml
       - name: Deploy
-        uses: up9cloud/action-rsync@1.4
+        uses: up9cloud/action-rsync@v1.4
         env:
           HOST: oesterle.io
           USER: ${{secrets.DEPLOY_USER}}
