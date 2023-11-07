@@ -25,6 +25,6 @@ jobs:
           HOST: oesterle.io
           USER: ${{secrets.DEPLOY_USER}}
           KEY: ${{secrets.DEPLOY_SSH_KEY}}
-          TARGET: docker/caddy/caddy-data/www/html/
+          TARGET: .
           MODE: push
           SOURCE: build/site/
