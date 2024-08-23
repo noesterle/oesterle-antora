@@ -1,4 +1,6 @@
-Hello! I'm Nathan Oesterle, Software Engineer. Have a look around! If you'd like to reach out, I can be reached at contact@oesterle.io!
+= Hello!
+
+I'm Nathan Oesterle, Software Engineer. Have a look around! If you'd like to reach out, I can be reached at contact@oesterle.io!
 
 //"2*"
 [cols="1*"] 
