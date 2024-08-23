@@ -1,0 +1,17 @@
+= Fill In The Blank
+
+https://github.com/noesterle/FillInTheBlank[Fill in the Blank] is an HTML game inspired by Sporkle's limited number of Lyric-quizzes.
+This project is written in Python, using Python Flask.
+The web application is run by combining python to gather the data, Jinja templates to create HTML pages, javascript to update the webpage.
+Lyrics are gathered by a https://github.com/noesterle/azlyrics[Python module] that https://github.com/noesterle/azlyrics[I forked and updated] to work with current-day AZLyrics.
+
+When a user visits the webpage, it asks for an Artist and fetches one of their songs at random from https://www.azlyrics.com[AZLyrics].
+From there, each word in the Lyrics is populated in an HTML table and hidden.
+The words are revealed as they are guessed in a textbox and a score and percentage are increased accordingly.
+If the user is stumped, they can end the game and the rest of the words are revealed in red.
+The user can then select to play the game with a new song from the same artist or select a new artist to try.
+
+This is all packaged up into a Docker Image available on https://hub.docker.com/r/noesterle/fillintheblank[Docker Hub].
+
+There is a known issue, the commonly known name for an artist doesn't always match the AZLyrics listing.
+There is a python function to map commonly known names to AZLyrics names.
