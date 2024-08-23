@@ -1,0 +1,13 @@
+= Nonogram
+
+https://github.com/noesterle/Nonogram[Nonogram] is an HTML game designed to create a randomly generated https://en.wikipedia.org/wiki/Nonogram[Nonogram] of a user-specified size.
+This is a Python Flask project, where Python generates 2 Dimensional Arrays with randomly selected cells.
+Jinja creates the webpage with the HTML table for the nonogram, Javascript is used to update the webpage as the user interacts with the table and checks the nonogram for correctness.
+
+Those cells are counted horizontally then vertically to fill in the key.
+The application creates the HTML table that the 2 Dimensional Array with the key is mapped to.
+From there, the user can select and deselect cells in the table according to the provided key.
+Once the HTML table matches the generated python array, the user wins and is able to play again.
+If at any time the user desires, the can create a new nonogram of a different size or regenerate a nonogram of the same size.
+
+This is all packaged up in a Docker Image available on https://hub.docker.com/r/noesterle/nonogram[Docker Hub].

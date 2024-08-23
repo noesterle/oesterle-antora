@@ -12,6 +12,8 @@ include::../partials/minecraft.adoc[Minecraft]
 
 include::../partials/fillintheblank.adoc[Fill In The Blank]
 
+include::../partials/nonogram.adoc[Nonogram]
+
 include::../partials/pterodactyl.adoc[Pterodactyl Exporter]
 
 include::../partials/plot.adoc[Movie Plot Scrambler]
