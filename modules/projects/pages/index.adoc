@@ -10,6 +10,8 @@ include::../partials/selfhost.adoc[Selfhosting]
 
 include::../partials/minecraft.adoc[Minecraft]
 
+include::../partials/aurora.adoc[Aurora-ntfy]
+
 include::../partials/fillintheblank.adoc[Fill In The Blank]
 
 include::../partials/nonogram.adoc[Nonogram]

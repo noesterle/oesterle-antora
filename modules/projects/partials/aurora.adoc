@@ -1,0 +1,10 @@
+= Aurora NTFY
+
+https://github.com/noesterle/aurora-ntfy[Aurora-ntfy] is a python application that serves notifications via https://ntfy.sh/[NTFY] based on the https://www.swpc.noaa.gov/communities/aurora-dashboard-experimental#[NOAA's Aurora Forecast].
+
+Aurora-ntfy uses the https://www.swpc.noaa.gov/[National Oceanic and Atmospheric Administration (NOAA) Space Weather Prediciton Center's] services to check current and upcoming atmospheric conditions.
+The conditions are forecasted using the https://www.swpc.noaa.gov/sites/default/files/images/u2/TheK-index.pdf[KP Index], describing the scale of disturbances in the Earth's Magnetic field that create the Auroras.
+If the forecast is above a user-specified index, the application will send a web request to the user-specified NFTY server.
+
+The notification created by NTFY will include the current KP Index, the KP Index over the current 3 hour window, the peak and average forecasted KP Index overnight in the user-specified timezone.
+It will also have NOAA's picture of https://services.swpc.noaa.gov/experimental/images/aurora_dashboard/tonights_static_viewline_forecast.png[Tonight's Aurora Forecast] attached, and clicking the notification will open https://www.swpc.noaa.gov/communities/aurora-dashboard-experimental#[NOAA's Aurora Experimental Dashboard] in a web browser for more information.
